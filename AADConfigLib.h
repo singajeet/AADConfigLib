@@ -9,8 +9,8 @@
 #include "Arduino.h"
 //add your includes for the project AADConfigLib here
 
-#define CONF_LCD_DRIVER new Nokia1616Driver();
-#define CONF_DEFAULT_FONT new Nokia1616EmbeddedFont8x15();
+#define CONF_LCD_DRIVER new AADNokia1616LCDDriver();
+#define CONF_DEFAULT_FONT new AADFontsLibDefault8x15();
 
 
 
