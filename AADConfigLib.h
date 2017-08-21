@@ -11,6 +11,9 @@
 
 #define CONF_LCD_DRIVER new AADNokia1616LCDDriver();
 #define CONF_DEFAULT_FONT new AADFontsLibDefault8x15();
+#define TITLE_PANE_DEFAULT_HEIGHT 10
+#define CONF_MAX_WIDGETS 10
+#define CONF_MAX_PANELS 5
 
 
 
